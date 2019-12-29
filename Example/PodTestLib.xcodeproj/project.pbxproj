@@ -328,8 +328,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PodTestLib_Example/Pods-PodTestLib_Example-frameworks.sh",
-				"${PODS_ROOT}/../../PodTestLib/Frameworks/SocketIO.framework",
-				"${PODS_ROOT}/../../PodTestLib/Frameworks/WebRTC.framework",
+				"${PODS_ROOT}/PodTestLib/PodTestLib/Frameworks/SocketIO.framework",
+				"${PODS_ROOT}/PodTestLib/PodTestLib/Frameworks/WebRTC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

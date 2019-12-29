@@ -1,4 +1,4 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../PodTestLib/Frameworks"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/PodTestLib/PodTestLib/Frameworks" "${PODS_ROOT}/TDataMaster/TDataMaster"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PodTestLib"
 OTHER_LDFLAGS = $(inherited) -framework "SocketIO" -framework "WebRTC"

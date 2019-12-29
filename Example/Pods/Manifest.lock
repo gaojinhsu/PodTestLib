@@ -1,16 +1,21 @@
 PODS:
-  - PodTestLib (0.3.0)
+  - PodTestLib (0.4.0):
+    - TDataMaster
+  - TDataMaster (1.6.000.765)
 
 DEPENDENCIES:
-  - PodTestLib (from `../`)
+  - PodTestLib (= 0.4.0)
 
-EXTERNAL SOURCES:
-  PodTestLib:
-    :path: "../"
+SPEC REPOS:
+  http://git.code.oa.com/greysongjxu/TDataMasterSpecs.git:
+    - TDataMaster
+  https://github.com/gaojinhsu/PodTestLibSpecs.git:
+    - PodTestLib
 
 SPEC CHECKSUMS:
-  PodTestLib: 320d83e93005b709732b74bae6e51feee068e92a
+  PodTestLib: f64a652d2ebf9b3fa6ca36ef2f3fa7d88501be8e
+  TDataMaster: 1aa4693594b955c8a1cd989abb7ae2d9de81d156
 
-PODFILE CHECKSUM: b87ec43ab0be837d1b649f84fe00fb7b8450f3ce
+PODFILE CHECKSUM: 12ef6f3247d653409374496667a1a99cc3060302
 
 COCOAPODS: 1.8.4

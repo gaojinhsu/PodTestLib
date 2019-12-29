@@ -34,6 +34,8 @@ TODO: Add long description of the pod here.
   
   s.vendored_frameworks = 'PodTestLib/Frameworks/*.framework'
   
+  s.dependency 'TDataMaster'
+  
   # s.resource_bundles = {
   #   'PodTestLib' => ['PodTestLib/Assets/*.png']
   # }

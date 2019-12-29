@@ -1,6 +1,6 @@
 {
   "name": "PodTestLib",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A short description of PodTestLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/gaojinhsu/PodTestLib",
@@ -13,11 +13,14 @@
   },
   "source": {
     "git": "https://github.com/gaojinhsu/PodTestLib.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "PodTestLib/Classes/**/*",
-  "vendored_frameworks": "PodTestLib/Frameworks/*.framework"
+  "vendored_frameworks": "PodTestLib/Frameworks/*.framework",
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": false
+  }
 }

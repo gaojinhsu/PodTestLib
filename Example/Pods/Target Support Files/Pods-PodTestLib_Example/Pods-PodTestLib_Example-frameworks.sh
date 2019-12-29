@@ -161,10 +161,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/PodTestLib/PodTestLib.framework"
+  install_framework "${PODS_ROOT}/../../PodTestLib/Frameworks/SocketIO.framework"
+  install_framework "${PODS_ROOT}/../../PodTestLib/Frameworks/WebRTC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/PodTestLib/PodTestLib.framework"
+  install_framework "${PODS_ROOT}/../../PodTestLib/Frameworks/SocketIO.framework"
+  install_framework "${PODS_ROOT}/../../PodTestLib/Frameworks/WebRTC.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

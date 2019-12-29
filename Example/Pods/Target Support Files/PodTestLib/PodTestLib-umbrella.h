@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PLHello.h"
 
 FOUNDATION_EXPORT double PodTestLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodTestLibVersionString[];

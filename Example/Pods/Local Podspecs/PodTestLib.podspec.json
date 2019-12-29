@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodTestLib/Classes/**/*"
+  "source_files": "PodTestLib/Classes/**/*",
+  "vendored_frameworks": "PodTestLib/Frameworks/*.framework"
 }

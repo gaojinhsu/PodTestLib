@@ -1,5 +1,5 @@
 PODS:
-  - PodTestLib (0.1.0)
+  - PodTestLib (0.2.0)
 
 DEPENDENCIES:
   - PodTestLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PodTestLib: 6015d14cd1c707511365b2877727f087e5de325c
+  PodTestLib: 9fbbfc49c5759dd2d184d6f2e321a07bea34c3b1
 
 PODFILE CHECKSUM: 7bd8a00bd8e5d8cb86793c6520b4f7aa558518cb
 

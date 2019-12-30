@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7E7AE313364D0552EE43FAEA /* libPods-PodTestLib_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 737D45677658700D5C8A9B72 /* libPods-PodTestLib_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CDBBDD0B23B8E418005BFDAF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBDD0A23B8E418005BFDAF /* SystemConfiguration.framework */; };
+		CDBBDD0D23B8E41F005BFDAF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBDD0C23B8E41F005BFDAF /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		7FFB83DABDCE7C0196323D60 /* Pods-PodTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-PodTestLib_Example/Pods-PodTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB964FD40B80DAD35E013C7E /* Pods-PodTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-PodTestLib_Tests/Pods-PodTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CDBBDD0A23B8E418005BFDAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDBBDD0C23B8E41F005BFDAF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		D917609DCE0C7B1024AF8AB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,8 +79,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				CDBBDD0B23B8E418005BFDAF /* SystemConfiguration.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				CDBBDD0D23B8E41F005BFDAF /* CoreTelephony.framework in Frameworks */,
 				7E7AE313364D0552EE43FAEA /* libPods-PodTestLib_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +136,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CDBBDD0C23B8E41F005BFDAF /* CoreTelephony.framework */,
+				CDBBDD0A23B8E418005BFDAF /* SystemConfiguration.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -328,8 +336,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PodTestLib_Example/Pods-PodTestLib_Example-frameworks.sh",
-				"${PODS_ROOT}/PodTestLib/PodTestLib/Frameworks/SocketIO.framework",
-				"${PODS_ROOT}/PodTestLib/PodTestLib/Frameworks/WebRTC.framework",
+				"${PODS_ROOT}/../../PodTestLib/Frameworks/SocketIO.framework",
+				"${PODS_ROOT}/../../PodTestLib/Frameworks/WebRTC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

@@ -19,23 +19,14 @@
     "ios": "8.0"
   },
   "source_files": "PodTestLib/Classes/**/*",
-  "vendored_frameworks": "PodTestLib/Frameworks/*.framework",
   "frameworks": [
     "SystemConfiguration",
     "CoreTelephony",
     "UIKit",
     "Foundation"
   ],
-  "dependencies": {
-    "TDataMaster": [
-
-    ]
-  },
   "libraries": [
     "sqlite3.0",
     "c++"
-  ],
-  "pod_target_xcconfig": {
-    "ENABLE_BITCODE": false
-  }
+  ]
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTestLib'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'A short description of PodTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'PodTestLib/Classes/**/*'
   
-  s.vendored_frameworks = 'PodTestLib/Frameworks/*.framework'
+#  s.vendored_frameworks = 'PodTestLib/Frameworks/*.framework'
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'UIKit', 'Foundation'
   
-  s.dependency 'TDataMaster'
+#  s.dependency 'TDataMaster'
 
   s.libraries = 'sqlite3.0', 'c++'
   
@@ -46,7 +46,12 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.pod_target_xcconfig = {
-    'ENABLE_BITCODE' => false
-  }
+#  valid_archs = ['armv7','arm64',]
+#  s.xcconfig = {
+#    'VALID_ARCHS' =>  valid_archs.join(' '),
+#  }
+#  s.pod_target_xcconfig = {
+#    'ENABLE_BITCODE' => false,
+#    'VALID_ARCHS[sdk=iphonesimulator*]' => ''
+#  }
 end

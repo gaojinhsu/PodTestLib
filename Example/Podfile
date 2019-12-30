@@ -1,5 +1,4 @@
-source 'https://github.com/gaojinhsu/PodTestLibSpecs.git'
-source 'http://git.code.oa.com/greysongjxu/TDataMasterSpecs.git'
+
 
 platform :ios, '8.0'
 
